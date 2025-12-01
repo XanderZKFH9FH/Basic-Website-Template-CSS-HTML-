@@ -5,3 +5,4 @@ the index has a bit of code wich you can remove. (everything after head)
 It contains 3 folders and 3 files,
 You can change the language at the top no problem.
 Please if you use this template treat it kindly, i dont need credit for this for it is not difficult to make anything like this.
+This was made wth dutch names, folders cna be renamed but the code needs to reflect that
