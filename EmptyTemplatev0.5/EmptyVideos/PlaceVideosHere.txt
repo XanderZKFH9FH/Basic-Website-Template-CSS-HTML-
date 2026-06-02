@@ -1,0 +1,11 @@
+You can play videos on our website with this tag,
+MP4 and OGG are the most common, i reccomend MP4 but it is up to you.
+If you place sound files here then you must not forget to link it properly
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+
+You can treat the way you shape your video the same as images, you just have to place them inside the grid/ set and defined boundaries to make sure they line up whith what you are imagening.

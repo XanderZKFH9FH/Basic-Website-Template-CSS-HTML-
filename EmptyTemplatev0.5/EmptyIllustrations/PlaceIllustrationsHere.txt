@@ -1,0 +1,14 @@
+Images, Images are really easy, you get your image in here and in your html you use
+
+<img src="Img_Link/URL" alt="Failed to load">
+Img_Link => will usually look like ../EmptyIllustrations/ImageName
+                                    /EmptyIllustrations/ImageName
+                                Based on where your file Images
+                                If it is a page in EmptyPages it is the first
+                                And if it is your index it is the latter.
+
+
+Via your css you can customize your images to show up in diffrent ways to make sure your images aline with your grid or with your borders/ defined bounaries you will have to use your css,
+You can of course find all the image related commands on W3Schools, and i highly recommend you do so.
+
+

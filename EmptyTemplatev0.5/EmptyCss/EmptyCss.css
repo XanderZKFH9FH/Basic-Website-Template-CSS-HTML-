@@ -1,0 +1,55 @@
+/*Here you can Manage the layout of your website */
+:root {
+    /* Here you basically set your "standard", it is the root and with this you can work with em */
+}
+
+body {
+    /* Is empty right now but here you change the entire website. */
+    /*The changes made here can be overriden in more local sections of your css */
+}
+
+/*You can name your own parts of your html mainly in form of Classes and Ids
+Classes can be re-used per page and ids cannot */
+
+.myClass {
+    /* Here you can change the layout of all the elements with the class "myClass" */
+}
+
+#myId {
+    /* Here you can change the layout of the element with the id "myId" */
+}
+
+/* You can also use the name of the html element to change all of them */
+
+/* Now grids and flowcharts are a bit more complex but they are very useful to create a nice layout for your website */
+/* You can use grid to create a layout with rows and columns and flowcharts to create a layout with flow of elements */
+/* An example of a grid layout is: 424, 111, 3 colloms, 3 rows
+When i say 424,111 i mean that 40% of the width is for the first column, 20% for the second and 40% for the third. 
+And for the rows it is 33%, 33%, 33% but with height instead of width 
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 33% 33% 33%;
+}
+    If you want the columns and rows to have sperate css/ styling you can give them a name like this:
+.Grid-Block1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+    This class is for the first collom and first row, you can change the numbers to change the collom and row.
+
+
+    For example if you want the second collom and second row you can do this:
+.Grid-Block2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+    you can also use @media to make your website responsive, this means that it will look good on different screen sizes.*/
+@media (max-width: 600px) {/* It can also be min-widt: when that is used instead of max it makes it so your width should atleast X amount of pixel wide before it changes to the set / asked changes.*/
+    /* Here you can change the layout for screens smaller than 600px. */
+}  

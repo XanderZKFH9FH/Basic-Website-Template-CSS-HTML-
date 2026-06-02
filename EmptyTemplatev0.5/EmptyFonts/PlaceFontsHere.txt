@@ -1,0 +1,22 @@
+If you want to you fonts
+@Fontface is how you make fonts in here accesible
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(//Here goes the Href/Link//);
+}
+
+then you can call it like this
+
+div {
+  font-family: myFirstFont;
+}
+
+
+Make sure your font file type is on of the following:
+TTF/OTF WOFF WOFF2.
+
+Your fonts will changes depending on what type you download and how they are named,
+If you name your font as bold italc and open you can freely choose between the diffrent variations via the names give in { font family:;
+
+Now of course i understand some might say "how about line heigt or how about font size, they all have their seperate css functions but i will kindly ask you to check out W3 schools for those.
