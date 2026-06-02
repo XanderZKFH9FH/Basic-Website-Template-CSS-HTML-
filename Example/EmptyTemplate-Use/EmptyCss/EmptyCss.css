@@ -1,0 +1,263 @@
+@font-face {
+    font-family: X1;
+    src: url(../EmptyFonts/Eund.ttf);
+}
+
+@font-face {
+    font-family: XB;
+    src: url(../EmptyFonts/EundBold.ttf);
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 4fr 3fr;
+    grid-template-rows: 1.25fr 8.75fr;
+    background-image: linear-gradient(to right, #f9dad8 0% 26.5%, #ffffff 26.5% 74.5%, #f9dad8 74.5% 100%);
+    margin: 0;
+}
+
+p{
+    font-family: X;
+    text-transform: uppercase;
+}
+
+#Grid-Partition-First {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    grid-template-columns: 3fr 4fr 3fr;
+    border-bottom: solid 2px #215972;
+}
+
+#Grid-11{
+    display: grid;
+    align-self: center;
+    grid-column: 1 / 2;
+}
+
+#Grid-11 > p{
+    text-align: center;
+    color: #215972;
+    font-size: small;
+}
+
+#Grid-12{
+    display: grid;
+    align-self: center;
+    grid-column: 2 / 3;
+}
+
+#Grid-12 > #navlist {
+    display: flex !important;
+    list-style: none;
+    margin: 0;
+    padding-left: 10% !important;
+    gap: 1.25rem;
+    font-size: 90%;
+    font-family: XB !important;
+    align-items: center;
+}
+
+#Grid-12 > #navlist li  a{
+    text-decoration: none;
+    color: #215972;
+    font-weight: bold;
+}
+
+.DropDown-Li {
+    position: relative;
+}
+
+.DropDown-Content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    padding: 0;
+}
+
+.DropDown-Content li {
+    list-style: none;
+}
+
+.DropDown-Content a {
+    display: block;
+    padding: 12px 16px;
+}
+
+.DropDown-Li:hover .DropDown-Content {
+    display: block;
+}
+
+#Grid-13{
+    display: grid;
+    align-self: center;
+    grid-column: 3 / 4;
+}
+
+#Grid-13 > a{
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    color: #215972;
+    font-family: X1;
+}
+
+#Grid-Partition-Second {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    grid-template-columns: 25/100fr 5fr 25/100fr;
+}
+
+#Grid-21{
+    display: grid;
+    align-self: center;
+    grid-column: 1 / 2;
+}
+
+#Grid-22{
+    display: grid;
+    align-self: center;
+    grid-column: 2 / 3;
+    align-items: center;
+}
+
+#Grid-22 > img{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: auto;
+    width: 35%;
+}
+
+#Grid-22 > p {
+    text-decoration: none;
+    text-align: center;
+    color: #215972;
+    font-size: 175%;
+    letter-spacing: 10%;
+    line-height: 175%;
+}
+
+#Grid-23{
+    display: grid;
+    align-self: center;
+    grid-column: 3 / 4;
+}
+
+
+@media (max-width: 480px) {
+    body {
+        display: block;
+        background-color: #f9dad8;
+    }
+
+    p {
+        font-family: X, sans-serif;
+        text-transform: uppercase;
+    }
+
+    #Grid-Partition-First {
+        display: block;
+        border-bottom: solid 2px #215972;
+    }
+
+    #Grid-11 {
+        text-align: center;
+    }
+
+    #Grid-11 > p {
+        color: #215972;
+        font-size: small;
+    }
+
+    #Grid-12 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Grid-12 > #navlist {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 1.25rem;
+        font-size: 90%;
+        font-family: XB, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    #Grid-12 > #navlist li a {
+        text-decoration: none;
+        color: #215972;
+        font-weight: bold;
+    }
+
+    .DropDown-Li {
+        position: relative;
+    }
+
+    .DropDown-Content {
+        display: none;
+        position: static;
+        background-color: #f1f1f1;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .DropDown-Content li {
+        list-style: none;
+    }
+
+    .DropDown-Content a {
+        display: block;
+        padding: 12px 16px;
+    }
+
+    .DropDown-Li:active .DropDown-Content {
+        display: block;
+    }
+
+    #Grid-13 {
+        text-align: center;
+    }
+
+    #Grid-13 > a {
+        text-decoration: none;
+        font-size: small;
+        color: #215972;
+        font-family: X, sans-serif;
+    }
+
+    #Grid-Partition-Second {
+        display: block;
+    }
+
+    #Grid-21,
+    #Grid-23 {
+        text-align: center;
+    }
+
+    #Grid-22 {
+        text-align: center;
+    }
+
+    #Grid-22 > img {
+        padding: 5% 0;
+        margin: auto;
+        width: 35%;
+        display: block;
+    }
+
+    #Grid-22 > p {
+        color: #215972;
+        font-size: 175%;
+        letter-spacing: 2px;
+        line-height: 175%;
+    }
+}
