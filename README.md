@@ -10,3 +10,6 @@ If you want to learn more about website desing or are curious about a feature bu
 I reccomed W3Schools, the website has information about almsot everything alteast in the website coding department.
 It is free and highly recommended.
 I don not use their code in my examples and exlplanations but i learned most stuff there.
+
+
+I will place some examples and recreations of actual websites on this repositories, i will aslo make templates defining only the grid in the near future.
