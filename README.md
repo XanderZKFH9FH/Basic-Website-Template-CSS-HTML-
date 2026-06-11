@@ -7,9 +7,12 @@ A beginner-friendly template collection for learning HTML and CSS fundamentals. 
 ## 📋 Quick Start
 
 ### 1. Download the Template
-- Visit the **[EmptyTemplatev0.5](https://github.com/IkeaSoupe/Basic-Website-Template-CSS-HTML-/tree/EmptyTemplatev0.5)** folder
-- Download or clone the repository
-- Extract to your local machine
+To download a folder from GitHub, 
+navigate to your desired repository, 
+select the folder you want to download from GitHub, 
+copy the URL, navigate to 
+https://download-directory.github.io/
+and paste the URL into the text box, and hit enter.
 
 ### 2. Set Up Your Project
 ```
@@ -107,7 +110,6 @@ EmptyTemplate_v0.5/
 5. **Customize** → Change colors, fonts, and proportions
 
 ### Next Steps
-- **W3Schools** — [CSS Grid Guide](https://www.w3schools.com/css/css_grid.asp), [Flexbox Guide](https://www.w3schools.com/css/css3_flexbox.asp)
 - **MDN Docs** — More in-depth HTML & CSS references
 - **Practice** — Build your own project using this template
 
